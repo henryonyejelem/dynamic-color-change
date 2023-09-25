@@ -1,0 +1,52 @@
+body{
+    background: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    padding-inline: 30vw;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.7rem;
+    font-weight: 200;
+    padding-block: 50px;
+}
+section:nth-child(even){
+    background: white;
+    color: black;
+}
+
+section:nth-child(odd){
+    background: black;
+    color:white;
+}
+
+/*.logo {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+@media(width > 980px){
+    .logo {
+        position: sticky;
+        top : .5rem;
+        mix-blend-mode: difference;
+    }
+}
+*/
+
+.logo {
+    width: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+@media(width > 980px){
+    .logo {
+        position: sticky;
+        top : .5rem;
+        mix-blend-mode: difference;
+    }
+}
